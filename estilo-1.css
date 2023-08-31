@@ -1,0 +1,51 @@
+*{
+    background-color:burlywood;
+}
+#Titulo{
+    text-align: center;
+}
+.info:hover{
+    color: red;
+}
+.titulo{
+    background-color: whitesmoke;
+}
+.base{
+    border:2px solid red;
+    text-align: center;
+    border-radius: 24px;
+    background-color:whitesmoke;
+}
+
+ul{
+    color: green;
+    background-color: whitesmoke;
+  
+}
+ul :hover{
+    color:red;
+}
+
+.menu{
+    display: inline-flex;
+    width: 70px;
+    background-color: whitesmoke;
+
+}
+
+li a{
+    color:green;
+    background-color: whitesmoke;
+    
+}
+li a:hover{
+    color:red;
+}
+
+#version{
+    text-align:center;
+    
+}
+#Uno{
+    background-color: whitesmoke;
+}
