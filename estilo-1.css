@@ -4,7 +4,9 @@
 #Titulo{
     text-shadow: 2px 1px 1px white;
     font-size: 49px;
-    border: 2px solid red;
+    border: 3px solid rgb(223, 193, 154);
+    border-radius: 10px 10px 35px 10px;
+    box-shadow: 1px 1px 12px;
     width: 50%;  
     text-align: center;
     position:relative;
@@ -14,6 +16,7 @@
 #Titulo:hover{
     color: whitesmoke;
     text-shadow: 2px 1px 1px black;
+    
 }
 .info:hover{
     color: red;
@@ -41,8 +44,10 @@ ul :hover{
     display: inline-flex;
     width: 70px;
     background-color: whitesmoke;
-
+    
+    
 }
+
 
 li a{
     color:green;
@@ -59,4 +64,13 @@ li a:hover{
 }
 #Uno{
     background-color: whitesmoke;
+}
+#Dos{
+    background-color: whitesmoke;
+}
+#Tres{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration-line: none;
 }
