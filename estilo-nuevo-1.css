@@ -1,3 +1,33 @@
+body{
+    background-color:gray;
+}
+
 .datos{
-    border:2px solid blue;
+    border:4px solid rgb(2, 62, 117);
+    border-radius: 23px;
+    background-color: rgb(219, 194, 194);
+    box-shadow: 1px 4px 23px 5px; 
+    width:50%;
+    position: relative;
+    left: 25%;
+   
+}
+a{
+    text-decoration-line: none;
+    color:rgb(2, 62, 117);
+   
+}
+.titulo{
+    text-align: center;
+}
+
+.nom{
+    text-decoration: none;
+}
+header{
+    text-align:center;
+}
+li a{
+    color:(2, 62, 117);
+    font-size: larger;
 }

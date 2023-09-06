@@ -1,3 +1,6 @@
 .dato{
     border:2px solid green;
 }
+a{
+    text-decoration-line: none;
+}

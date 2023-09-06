@@ -62,6 +62,7 @@ li a:hover{
     text-align:center;
     
 }
+/*LIneas de menu*/
 #Uno{
     background-color: whitesmoke;
 }
@@ -73,4 +74,17 @@ li a:hover{
 }
 a{
     text-decoration-line: none;
+}
+#boton{
+   border: 1px solid red;
+   border-radius: 15px;
+   background-color: whitesmoke;
+   
+}
+#boton:active{
+   border: 1px solid gray;
+   border-radius: 15px;
+   background-color:whitesmoke;
+   box-shadow: 2px 4px 12px 2px black;
+   transform: translate(2px);
 }
