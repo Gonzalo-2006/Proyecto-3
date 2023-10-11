@@ -3,23 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina-1</title>
+    <title> Pagina-1</title>
     <link rel="stylesheet" href="estilo-1.css">
+    
 </head>
 <body>
-    <header><h1 id="Titulo">Titulo-1</h1></header>
+    <header><h1  id="Titulo">Titulo-1</h1></header>
     <p>Todo es de color: <strong class="info">rojo</strong></p>
+
+     <div align="center" class="Datos">
+       <img class="imagen" src="imagenes/gmail.png" width="150" height="150" alt="">
+       <h2  class="tituloDedatos">Datos de Usuario</h2>
+       <hr/>
+       <form  action="" id="ContenidoDatos" style="font-size: large;">
+        <label for="using">Ingrese su nombre:</label> 
+        <input type="text" placeholder="Primer nombre"  name="using"> 
+        <br/>
+        <label for="numero">Ingrese su numero de contacto: </label>
+        <input type="tel" maxlength="10" placeholder="Numero" name="numero";>  
+        <br/>
+        <label for="dir">Ingrese su correo</label>
+        <input type="email" placeholder="Correo" name="dir">  
+        <br/>
+        <label for="contraseña">Ingrese su contraseña:</label>
+        <input type="password" maxlength="8" placeholder="Contraseña" name="contraseña">    
+        <br/>
+        <div class="generos">
+        <label for="genero">Masulino</label>
+        <input type="radio" name="genero">
+        <label for="genero">Femenino</label>
+        <input type="radio" name="genero">
+        <label for="genero">No especifico</label>
+        <input type="radio" name="genero">    
+        </div>
+            
+        <br/>
+        <div class="botones">
+        <label for="envio"></label>
+        <input type="button" value="Enviar" name="envio">    
+        </div>
+        
+       </form>    
+     </div>
+     <br/>
      
     <section class="base">
-        <em><h1 class="titulo">Primero</h1></em>
-        <ul>
-            <li class="menu"><button id="boton"><a href="Nuevo-1.html"><strong id="Uno">Nuevo-1</strong></button></a></li>
-            <li class="menu"><a href="Nuevo-2.html"><strong id="Dos">Nuevo-2</strong></a></li>
-            <li class="menu"><a href="Nuevo-3.html"><strong id="Tres">Nuevo-3</strong></a></li>
+        <em><h1 align="center" class="titulo">Primero</h1></em>
+        <ul align="center">
+            <li class="menu"><button class="boton"><a href="Nuevo-1.html"><strong id="Uno">Nuevo-1</strong></a></button></li>
+            <li class="menu"><button class="boton"><a href="Nuevo-2.html"><strong id="Dos">Nuevo-2</strong></a></button></li>
+            <li class="menu"><button class="boton"><a href="Nuevo-3.html"><strong id="Tres">Nuevo-3</strong></a></button></li>
         </ol>
     
     </section>
-    <div><em>Colores <strong>no hay</strong></em></div>
+    
+   
+
+
+
     <aside id="version"><em>Proyecto de prueba <strong>Version 1.0</strong></em></aside>
    <footer><a href="Informe.html">Progreso</a></footer>
 </body>
